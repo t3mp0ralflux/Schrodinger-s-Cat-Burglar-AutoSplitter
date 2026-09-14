@@ -1,4 +1,9 @@
 // Note: The Exe just says SCB, not Steam, and not the full game name.
+state("SCB", "1.215")
+{
+	float timer: "GameAssembly.dll", 0x0357FF00, 0xB8, 0x0;
+}
+
 state("SCB", "1.205")
 {
 	float timer: "GameAssembly.dll", 0x03572458, 0x1F0, 0x78, 0x90, 0x360, 0x78, 0xB8, 0xFF0;
